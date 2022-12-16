@@ -1,0 +1,52 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+body {
+  background-color: #191B20;
+}
+
+.container p {
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+}
+.container .game {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .game canvas {
+  background-color: #242630;
+  margin: 20px 0;
+}
+
+.btns {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+.btns div {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.btns button {
+  background-color: wheat;
+  border: none;
+  outline: none;
+  padding: 10px;
+  text-transform: capitalize;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.btns button:active {
+  transform: scale(0.9);
+}/*# sourceMappingURL=style.css.map */
